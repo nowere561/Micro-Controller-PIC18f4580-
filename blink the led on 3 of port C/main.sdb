@@ -1,0 +1,72 @@
+[p GLOBOPT AUTOSTATIC LFSROK ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 3 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 3 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 3 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 3 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\Umul64.c
+[v ___omul __omul `(ul  1 e 4 0 ]
+"10 D:\Micro_controllers\PIC18F4580\Micro-Controller-PIC18f4580-\blink the led on 3 of port C\main.c
+[v _main main `(v  1 e 1 0 ]
+[s S25 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"25933 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4580.h
+[s S34 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S43 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S51 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[s S55 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+]
+[u S58 . 1 `S25 1 . 1 0 `S34 1 . 1 0 `S43 1 . 1 0 `S51 1 . 1 0 `S55 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES58  1 e 1 @3970 ]
+"27281
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"10 D:\Micro_controllers\PIC18F4580\Micro-Controller-PIC18f4580-\blink the led on 3 of port C\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"27
+} 0

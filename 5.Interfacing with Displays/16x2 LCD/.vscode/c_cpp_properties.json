@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "PIC18F4580",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "C:/Program Files/Microchip/xc8/v2.50/pic/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "C:/Program Files/Microchip/xc8/v2.50/bin/xc8.exe",
+            "cStandard": "c99",
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

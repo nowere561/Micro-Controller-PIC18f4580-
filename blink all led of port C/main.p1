@@ -1,9 +1,9 @@
 Version 3.2 HI-TECH Software Intermediate Code
 [p mainexit ]
-"27503 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4580.h
-[v _TRISD `Vuc ~T0 @X0 0 e@3989 ]
-"26058
-[v _PORTD `Vuc ~T0 @X0 0 e@3971 ]
+"27281 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4580.h
+[v _TRISC `Vuc ~T0 @X0 0 e@3988 ]
+"25888
+[v _PORTC `Vuc ~T0 @X0 0 e@3970 ]
 [v F44 `(v ~T0 @X0 1 tf1`ul ]
 "20 C:\Program Files\Microchip\xc8\v2.50\pic\include\builtins.h
 [v __delay `JF44 ~T0 @X0 0 e ]
@@ -847,17 +847,17 @@ Version 3.2 HI-TECH Software Intermediate Code
 [e :U _main ]
 [f ]
 "12
-[e = _TRISD -> -> 192 `i `uc ]
+[e = _TRISC -> -> 0 `i `uc ]
 "16
 [e :U 1085 ]
 "17
 {
 "19
-[e = _PORTD -> -> 255 `i `uc ]
+[e = _PORTC -> -> 255 `i `uc ]
 "20
 [e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 "21
-[e = _PORTD -> -> 0 `i `uc ]
+[e = _PORTC -> -> 0 `i `uc ]
 "22
 [e ( __delay (1 -> * -> -> 1000 `i `d / -> -> 8000000 `l `d .4000.0 `ul ]
 "26

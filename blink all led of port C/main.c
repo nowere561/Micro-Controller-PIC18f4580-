@@ -9,16 +9,16 @@
 
 void main(){
     //Gpio Config
-    TRISD = 0xC0;
+    TRISC = 0x00;
 
   
    
     while(1)    
     {
         
-        PORTD=0xFF;
+        PORTC=0xFF;
         __delay_ms(1000);
-        PORTD=0x00;
+        PORTC=0x00;
         __delay_ms(1000);
         
 

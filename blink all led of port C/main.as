@@ -941,10 +941,10 @@ TOSH equ 0FFEh ;#
 TOSU equ 0FFFh ;# 
 	debug_source C
 	FNROOT	_main
-	global	_PORTD
-_PORTD	set	0xF83
-	global	_TRISD
-_TRISD	set	0xF95
+	global	_PORTC
+_PORTC	set	0xF82
+	global	_TRISC
+_TRISC	set	0xF94
 ; #config settings
 	config pad_punits      = on
 	config apply_mask      = off
@@ -1064,8 +1064,8 @@ __pcstackCOMRAM:
 ;!BITBANK3           256      0       0      0.0%
 ;!BITBANK4           256      0       0      0.0%
 ;!BITBANK5           256      0       0      0.0%
-;!BITBIGSFRl         643      0       0      0.0%
-;!BITBIGSFRh         124      0       0      0.0%
+;!BITBIGSFRl         642      0       0      0.0%
+;!BITBIGSFRh         125      0       0      0.0%
 ;!COMRAM              95      2       2      2.1%
 ;!BANK0              160      0       0      0.0%
 ;!BANK1              256      0       0      0.0%
@@ -1089,7 +1089,7 @@ __pcstackCOMRAM:
 ;; Return value:  Size  Location     Type
 ;;                  1    wreg      void 
 ;; Registers used:
-;;		wreg, status,2
+;;		wreg
 ;; Tracked objects:
 ;;		On entry : 0/0
 ;;		On exit  : 0/0
@@ -1121,15 +1121,15 @@ _main:
 	line	12
 	
 l762:
-	movlw	low(0C0h)
-	movwf	((c:3989))^0f00h,c	;volatile
-	line	19
+	clrf	((c:3988))^0f00h,c	;volatile
+	line	16
 	
-l764:
-	setf	((c:3971))^0f00h,c	;volatile
+l11:
+	line	19
+	setf	((c:3970))^0f00h,c	;volatile
 	line	20
 	
-l766:
+l764:
 	asmopt push
 asmopt off
 movlw  11
@@ -1148,11 +1148,9 @@ asmopt pop
 
 	line	21
 	
-l768:
-	clrf	((c:3971))^0f00h,c	;volatile
+l766:
+	clrf	((c:3970))^0f00h,c	;volatile
 	line	22
-	
-l770:
 	asmopt push
 asmopt off
 movlw  11
@@ -1169,7 +1167,7 @@ decfsz	wreg,f
 	bra	u27
 asmopt pop
 
-	goto	l764
+	goto	l11
 	global	start
 	goto	start
 	callstack 0

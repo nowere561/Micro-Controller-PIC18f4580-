@@ -25,13 +25,13 @@
 [v ___lmul __lmul `(ul  1 e 4 0 ]
 "91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c90\common\Umul64.c
 [v ___omul __omul `(ul  1 e 4 0 ]
-"10 D:\Micro_controllers\PIC18F4580\single_led_blinking\main.c
+"10 D:\Micro_controllers\PIC18F4580\Micro-Controller-PIC18f4580-\blink all led of port C\main.c
 [v _main main `(v  1 e 1 0 ]
-"26058 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4580.h
-[v _PORTD PORTD `VEuc  1 e 1 @3971 ]
-"27503
-[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
-"10 D:\Micro_controllers\PIC18F4580\single_led_blinking\main.c
+"25888 C:\Program Files\Microchip\xc8\v2.50\pic\include\proc\pic18f4580.h
+[v _PORTC PORTC `VEuc  1 e 1 @3970 ]
+"27281
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"10 D:\Micro_controllers\PIC18F4580\Micro-Controller-PIC18f4580-\blink all led of port C\main.c
 [v _main main `(v  1 e 1 0 ]
 {
 "27
